@@ -15,6 +15,9 @@
 		13FE1DE821A2F16F009DBC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FE1DE621A2F16F009DBC15 /* LaunchScreen.storyboard */; };
 		13FE1DF321A2F16F009DBC15 /* Easy_EV_ChagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE1DF221A2F16F009DBC15 /* Easy_EV_ChagerTests.swift */; };
 		13FE1DFE21A2F16F009DBC15 /* Easy_EV_ChagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE1DFD21A2F16F009DBC15 /* Easy_EV_ChagerUITests.swift */; };
+		2DDEF7C375337EB0B4F17B53 /* Pods_Easy_EV_ChagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C00A0B77FD0CB70D044DB8 /* Pods_Easy_EV_ChagerTests.framework */; };
+		91E7F8B46A2A81E52047F97A /* Pods_Easy_EV_ChagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD50FF9C69AE7507E292CE7 /* Pods_Easy_EV_ChagerUITests.framework */; };
+		A4AF95445B7644CB79077E79 /* Pods_Easy_EV_Chager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC499857D2F4EB9A7595230E /* Pods_Easy_EV_Chager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		13FE1DF921A2F16F009DBC15 /* Easy EV ChagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy EV ChagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FE1DFD21A2F16F009DBC15 /* Easy_EV_ChagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_EV_ChagerUITests.swift; sourceTree = "<group>"; };
 		13FE1DFF21A2F16F009DBC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395EA44548825D9211AB3EC4 /* Pods-Easy EV Chager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy EV Chager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easy EV Chager/Pods-Easy EV Chager.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD50FF9C69AE7507E292CE7 /* Pods_Easy_EV_ChagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_EV_ChagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5849B55B9D00ACA9DFB023FD /* Pods-Easy EV Chager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy EV Chager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easy EV Chager/Pods-Easy EV Chager.release.xcconfig"; sourceTree = "<group>"; };
+		81153A8AD33CF776298FA751 /* Pods-Easy EV ChagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy EV ChagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easy EV ChagerUITests/Pods-Easy EV ChagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84C00A0B77FD0CB70D044DB8 /* Pods_Easy_EV_ChagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_EV_ChagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AD4646F61A38CA3F1C4A5D /* Pods-Easy EV ChagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy EV ChagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easy EV ChagerUITests/Pods-Easy EV ChagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AABC01EF7E43FAB5DFE4FEA5 /* Pods-Easy EV ChagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy EV ChagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Easy EV ChagerTests/Pods-Easy EV ChagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3DF7972B85F8883BB98E18E /* Pods-Easy EV ChagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Easy EV ChagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Easy EV ChagerTests/Pods-Easy EV ChagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC499857D2F4EB9A7595230E /* Pods_Easy_EV_Chager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Easy_EV_Chager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AF95445B7644CB79077E79 /* Pods_Easy_EV_Chager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDEF7C375337EB0B4F17B53 /* Pods_Easy_EV_ChagerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E7F8B46A2A81E52047F97A /* Pods_Easy_EV_ChagerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				13FE1DF121A2F16F009DBC15 /* Easy EV ChagerTests */,
 				13FE1DFC21A2F16F009DBC15 /* Easy EV ChagerUITests */,
 				13FE1DD821A2F16E009DBC15 /* Products */,
+				80EC7FE17B9FC0BF372F62A1 /* Pods */,
+				EAA61E7B05783A1290BC2BAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = "Easy EV ChagerUITests";
 			sourceTree = "<group>";
 		};
+		80EC7FE17B9FC0BF372F62A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395EA44548825D9211AB3EC4 /* Pods-Easy EV Chager.debug.xcconfig */,
+				5849B55B9D00ACA9DFB023FD /* Pods-Easy EV Chager.release.xcconfig */,
+				AABC01EF7E43FAB5DFE4FEA5 /* Pods-Easy EV ChagerTests.debug.xcconfig */,
+				B3DF7972B85F8883BB98E18E /* Pods-Easy EV ChagerTests.release.xcconfig */,
+				86AD4646F61A38CA3F1C4A5D /* Pods-Easy EV ChagerUITests.debug.xcconfig */,
+				81153A8AD33CF776298FA751 /* Pods-Easy EV ChagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAA61E7B05783A1290BC2BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC499857D2F4EB9A7595230E /* Pods_Easy_EV_Chager.framework */,
+				84C00A0B77FD0CB70D044DB8 /* Pods_Easy_EV_ChagerTests.framework */,
+				3CD50FF9C69AE7507E292CE7 /* Pods_Easy_EV_ChagerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13FE1E0221A2F16F009DBC15 /* Build configuration list for PBXNativeTarget "Easy EV Chager" */;
 			buildPhases = (
+				102258CA45B48F2F289273DE /* [CP] Check Pods Manifest.lock */,
 				13FE1DD321A2F16E009DBC15 /* Sources */,
 				13FE1DD421A2F16E009DBC15 /* Frameworks */,
 				13FE1DD521A2F16E009DBC15 /* Resources */,
+				FC70B52D754FEDD18E63D0E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13FE1E0521A2F16F009DBC15 /* Build configuration list for PBXNativeTarget "Easy EV ChagerTests" */;
 			buildPhases = (
+				3A4651D0DD357039B109834E /* [CP] Check Pods Manifest.lock */,
 				13FE1DEA21A2F16F009DBC15 /* Sources */,
 				13FE1DEB21A2F16F009DBC15 /* Frameworks */,
 				13FE1DEC21A2F16F009DBC15 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13FE1E0821A2F16F009DBC15 /* Build configuration list for PBXNativeTarget "Easy EV ChagerUITests" */;
 			buildPhases = (
+				7B0CC321DF846CB016BED67A /* [CP] Check Pods Manifest.lock */,
 				13FE1DF521A2F16F009DBC15 /* Sources */,
 				13FE1DF621A2F16F009DBC15 /* Frameworks */,
 				13FE1DF721A2F16F009DBC15 /* Resources */,
@@ -253,6 +297,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		102258CA45B48F2F289273DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easy EV Chager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4651D0DD357039B109834E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easy EV ChagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B0CC321DF846CB016BED67A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Easy EV ChagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC70B52D754FEDD18E63D0E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Easy EV Chager/Pods-Easy EV Chager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Easy EV Chager/Pods-Easy EV Chager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13FE1DD321A2F16E009DBC15 /* Sources */ = {
@@ -434,6 +569,7 @@
 		};
 		13FE1E0321A2F16F009DBC15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395EA44548825D9211AB3EC4 /* Pods-Easy EV Chager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +588,7 @@
 		};
 		13FE1E0421A2F16F009DBC15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5849B55B9D00ACA9DFB023FD /* Pods-Easy EV Chager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +607,7 @@
 		};
 		13FE1E0621A2F16F009DBC15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABC01EF7E43FAB5DFE4FEA5 /* Pods-Easy EV ChagerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +629,7 @@
 		};
 		13FE1E0721A2F16F009DBC15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DF7972B85F8883BB98E18E /* Pods-Easy EV ChagerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +651,7 @@
 		};
 		13FE1E0921A2F16F009DBC15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AD4646F61A38CA3F1C4A5D /* Pods-Easy EV ChagerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +672,7 @@
 		};
 		13FE1E0A21A2F16F009DBC15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81153A8AD33CF776298FA751 /* Pods-Easy EV ChagerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
