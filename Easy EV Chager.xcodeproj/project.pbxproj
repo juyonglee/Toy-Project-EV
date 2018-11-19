@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13FE1DDB21A2F16E009DBC15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE1DDA21A2F16E009DBC15 /* AppDelegate.swift */; };
+		13FE1DDD21A2F16E009DBC15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE1DDC21A2F16E009DBC15 /* ViewController.swift */; };
+		13FE1DE021A2F16E009DBC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FE1DDE21A2F16E009DBC15 /* Main.storyboard */; };
+		13FE1DE321A2F16E009DBC15 /* Easy_EV_Chager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13FE1DE121A2F16E009DBC15 /* Easy_EV_Chager.xcdatamodeld */; };
+		13FE1DE521A2F16F009DBC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FE1DE421A2F16F009DBC15 /* Assets.xcassets */; };
+		13FE1DE821A2F16F009DBC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13FE1DE621A2F16F009DBC15 /* LaunchScreen.storyboard */; };
+		13FE1DF321A2F16F009DBC15 /* Easy_EV_ChagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE1DF221A2F16F009DBC15 /* Easy_EV_ChagerTests.swift */; };
+		13FE1DFE21A2F16F009DBC15 /* Easy_EV_ChagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FE1DFD21A2F16F009DBC15 /* Easy_EV_ChagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13FE1DEF21A2F16F009DBC15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13FE1DCF21A2F16E009DBC15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FE1DD621A2F16E009DBC15;
+			remoteInfo = "Easy EV Chager";
+		};
+		13FE1DFA21A2F16F009DBC15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13FE1DCF21A2F16E009DBC15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FE1DD621A2F16E009DBC15;
+			remoteInfo = "Easy EV Chager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13FE1DD721A2F16E009DBC15 /* Easy EV Chager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy EV Chager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FE1DDA21A2F16E009DBC15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13FE1DDC21A2F16E009DBC15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13FE1DDF21A2F16E009DBC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13FE1DE221A2F16E009DBC15 /* Easy_EV_Chager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Easy_EV_Chager.xcdatamodel; sourceTree = "<group>"; };
+		13FE1DE421A2F16F009DBC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13FE1DE721A2F16F009DBC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13FE1DE921A2F16F009DBC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FE1DEE21A2F16F009DBC15 /* Easy EV ChagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy EV ChagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FE1DF221A2F16F009DBC15 /* Easy_EV_ChagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_EV_ChagerTests.swift; sourceTree = "<group>"; };
+		13FE1DF421A2F16F009DBC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13FE1DF921A2F16F009DBC15 /* Easy EV ChagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy EV ChagerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13FE1DFD21A2F16F009DBC15 /* Easy_EV_ChagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_EV_ChagerUITests.swift; sourceTree = "<group>"; };
+		13FE1DFF21A2F16F009DBC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13FE1DD421A2F16E009DBC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FE1DEB21A2F16F009DBC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FE1DF621A2F16F009DBC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13FE1DCE21A2F16E009DBC15 = {
+			isa = PBXGroup;
+			children = (
+				13FE1DD921A2F16E009DBC15 /* Easy EV Chager */,
+				13FE1DF121A2F16F009DBC15 /* Easy EV ChagerTests */,
+				13FE1DFC21A2F16F009DBC15 /* Easy EV ChagerUITests */,
+				13FE1DD821A2F16E009DBC15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13FE1DD821A2F16E009DBC15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13FE1DD721A2F16E009DBC15 /* Easy EV Chager.app */,
+				13FE1DEE21A2F16F009DBC15 /* Easy EV ChagerTests.xctest */,
+				13FE1DF921A2F16F009DBC15 /* Easy EV ChagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13FE1DD921A2F16E009DBC15 /* Easy EV Chager */ = {
+			isa = PBXGroup;
+			children = (
+				13FE1DDA21A2F16E009DBC15 /* AppDelegate.swift */,
+				13FE1DDC21A2F16E009DBC15 /* ViewController.swift */,
+				13FE1DDE21A2F16E009DBC15 /* Main.storyboard */,
+				13FE1DE421A2F16F009DBC15 /* Assets.xcassets */,
+				13FE1DE621A2F16F009DBC15 /* LaunchScreen.storyboard */,
+				13FE1DE921A2F16F009DBC15 /* Info.plist */,
+				13FE1DE121A2F16E009DBC15 /* Easy_EV_Chager.xcdatamodeld */,
+			);
+			path = "Easy EV Chager";
+			sourceTree = "<group>";
+		};
+		13FE1DF121A2F16F009DBC15 /* Easy EV ChagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				13FE1DF221A2F16F009DBC15 /* Easy_EV_ChagerTests.swift */,
+				13FE1DF421A2F16F009DBC15 /* Info.plist */,
+			);
+			path = "Easy EV ChagerTests";
+			sourceTree = "<group>";
+		};
+		13FE1DFC21A2F16F009DBC15 /* Easy EV ChagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13FE1DFD21A2F16F009DBC15 /* Easy_EV_ChagerUITests.swift */,
+				13FE1DFF21A2F16F009DBC15 /* Info.plist */,
+			);
+			path = "Easy EV ChagerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13FE1DD621A2F16E009DBC15 /* Easy EV Chager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FE1E0221A2F16F009DBC15 /* Build configuration list for PBXNativeTarget "Easy EV Chager" */;
+			buildPhases = (
+				13FE1DD321A2F16E009DBC15 /* Sources */,
+				13FE1DD421A2F16E009DBC15 /* Frameworks */,
+				13FE1DD521A2F16E009DBC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy EV Chager";
+			productName = "Easy EV Chager";
+			productReference = 13FE1DD721A2F16E009DBC15 /* Easy EV Chager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13FE1DED21A2F16F009DBC15 /* Easy EV ChagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FE1E0521A2F16F009DBC15 /* Build configuration list for PBXNativeTarget "Easy EV ChagerTests" */;
+			buildPhases = (
+				13FE1DEA21A2F16F009DBC15 /* Sources */,
+				13FE1DEB21A2F16F009DBC15 /* Frameworks */,
+				13FE1DEC21A2F16F009DBC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FE1DF021A2F16F009DBC15 /* PBXTargetDependency */,
+			);
+			name = "Easy EV ChagerTests";
+			productName = "Easy EV ChagerTests";
+			productReference = 13FE1DEE21A2F16F009DBC15 /* Easy EV ChagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13FE1DF821A2F16F009DBC15 /* Easy EV ChagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FE1E0821A2F16F009DBC15 /* Build configuration list for PBXNativeTarget "Easy EV ChagerUITests" */;
+			buildPhases = (
+				13FE1DF521A2F16F009DBC15 /* Sources */,
+				13FE1DF621A2F16F009DBC15 /* Frameworks */,
+				13FE1DF721A2F16F009DBC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13FE1DFB21A2F16F009DBC15 /* PBXTargetDependency */,
+			);
+			name = "Easy EV ChagerUITests";
+			productName = "Easy EV ChagerUITests";
+			productReference = 13FE1DF921A2F16F009DBC15 /* Easy EV ChagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13FE1DCF21A2F16E009DBC15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Juyong Lee";
+				TargetAttributes = {
+					13FE1DD621A2F16E009DBC15 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					13FE1DED21A2F16F009DBC15 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 13FE1DD621A2F16E009DBC15;
+					};
+					13FE1DF821A2F16F009DBC15 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 13FE1DD621A2F16E009DBC15;
+					};
+				};
+			};
+			buildConfigurationList = 13FE1DD221A2F16E009DBC15 /* Build configuration list for PBXProject "Easy EV Chager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13FE1DCE21A2F16E009DBC15;
+			productRefGroup = 13FE1DD821A2F16E009DBC15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13FE1DD621A2F16E009DBC15 /* Easy EV Chager */,
+				13FE1DED21A2F16F009DBC15 /* Easy EV ChagerTests */,
+				13FE1DF821A2F16F009DBC15 /* Easy EV ChagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13FE1DD521A2F16E009DBC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FE1DE821A2F16F009DBC15 /* LaunchScreen.storyboard in Resources */,
+				13FE1DE521A2F16F009DBC15 /* Assets.xcassets in Resources */,
+				13FE1DE021A2F16E009DBC15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FE1DEC21A2F16F009DBC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FE1DF721A2F16F009DBC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13FE1DD321A2F16E009DBC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FE1DDD21A2F16E009DBC15 /* ViewController.swift in Sources */,
+				13FE1DDB21A2F16E009DBC15 /* AppDelegate.swift in Sources */,
+				13FE1DE321A2F16E009DBC15 /* Easy_EV_Chager.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FE1DEA21A2F16F009DBC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FE1DF321A2F16F009DBC15 /* Easy_EV_ChagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FE1DF521A2F16F009DBC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FE1DFE21A2F16F009DBC15 /* Easy_EV_ChagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13FE1DF021A2F16F009DBC15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13FE1DD621A2F16E009DBC15 /* Easy EV Chager */;
+			targetProxy = 13FE1DEF21A2F16F009DBC15 /* PBXContainerItemProxy */;
+		};
+		13FE1DFB21A2F16F009DBC15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13FE1DD621A2F16E009DBC15 /* Easy EV Chager */;
+			targetProxy = 13FE1DFA21A2F16F009DBC15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13FE1DDE21A2F16E009DBC15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13FE1DDF21A2F16E009DBC15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13FE1DE621A2F16F009DBC15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13FE1DE721A2F16F009DBC15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13FE1E0021A2F16F009DBC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13FE1E0121A2F16F009DBC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13FE1E0321A2F16F009DBC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UJVG7KR4;
+				INFOPLIST_FILE = "Easy EV Chager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.juyonglee0208.Easy-EV-Chager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13FE1E0421A2F16F009DBC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UJVG7KR4;
+				INFOPLIST_FILE = "Easy EV Chager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.juyonglee0208.Easy-EV-Chager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13FE1E0621A2F16F009DBC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UJVG7KR4;
+				INFOPLIST_FILE = "Easy EV ChagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.juyonglee0208.Easy-EV-ChagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy EV Chager.app/Easy EV Chager";
+			};
+			name = Debug;
+		};
+		13FE1E0721A2F16F009DBC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UJVG7KR4;
+				INFOPLIST_FILE = "Easy EV ChagerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.juyonglee0208.Easy-EV-ChagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy EV Chager.app/Easy EV Chager";
+			};
+			name = Release;
+		};
+		13FE1E0921A2F16F009DBC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UJVG7KR4;
+				INFOPLIST_FILE = "Easy EV ChagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.juyonglee0208.Easy-EV-ChagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy EV Chager";
+			};
+			name = Debug;
+		};
+		13FE1E0A21A2F16F009DBC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UJVG7KR4;
+				INFOPLIST_FILE = "Easy EV ChagerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail.juyonglee0208.Easy-EV-ChagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Easy EV Chager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FE1DD221A2F16E009DBC15 /* Build configuration list for PBXProject "Easy EV Chager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FE1E0021A2F16F009DBC15 /* Debug */,
+				13FE1E0121A2F16F009DBC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FE1E0221A2F16F009DBC15 /* Build configuration list for PBXNativeTarget "Easy EV Chager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FE1E0321A2F16F009DBC15 /* Debug */,
+				13FE1E0421A2F16F009DBC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FE1E0521A2F16F009DBC15 /* Build configuration list for PBXNativeTarget "Easy EV ChagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FE1E0621A2F16F009DBC15 /* Debug */,
+				13FE1E0721A2F16F009DBC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FE1E0821A2F16F009DBC15 /* Build configuration list for PBXNativeTarget "Easy EV ChagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FE1E0921A2F16F009DBC15 /* Debug */,
+				13FE1E0A21A2F16F009DBC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13FE1DE121A2F16E009DBC15 /* Easy_EV_Chager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13FE1DE221A2F16E009DBC15 /* Easy_EV_Chager.xcdatamodel */,
+			);
+			currentVersion = 13FE1DE221A2F16E009DBC15 /* Easy_EV_Chager.xcdatamodel */;
+			path = Easy_EV_Chager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13FE1DCF21A2F16E009DBC15 /* Project object */;
+}
