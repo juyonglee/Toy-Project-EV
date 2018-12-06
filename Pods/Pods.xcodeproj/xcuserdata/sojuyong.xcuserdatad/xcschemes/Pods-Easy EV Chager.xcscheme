@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F76C0D9F4549799B98D9B90A065CC44"
+               BlueprintIdentifier = "8B86A73EA3169B8DBDEF0CB0C481636C"
                BlueprintName = "Pods-Easy EV Chager"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Pods-Easy EV Chager.framework">
